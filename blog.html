@@ -1,0 +1,250 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sailor use bootstrap</title>
+		<meta  name="viewport"content="width=device-width,initial-scale=1"/>
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+	
+		<style>
+		.floating-btn{
+			paddding:10px 20px;
+			background:red;
+			color:#fff;
+			position:fixed;
+			bottom:20px;
+			right:20px;
+			border:none;
+			bordewr-radius:80px
+		}
+		</style>
+	</head>
+	
+	<body>
+	<!--nav-->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid bg-white">
+		<a class="navbar-brand mx-4 fw-bolder" href="#">Sailor</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+    <div class="collapse navbar-collapse m-3" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item ">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">about</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html"">Active</a></li>
+            <li><a class="dropdown-item" href="about.html">Team</a></li>
+            <li><a class="dropdown-item" href="about.html">Testimonial</a></li>
+            <li><a class="dropdown-item" href="about.html">Deep Dropdown</a></li>
+          </ul>
+        </li>
+		 <li class="nav-item ">
+          <a class="nav-link" href="service.html">service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">portfolio</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="pricing.html">pricing</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link  active text-danger" href="blog.html">blog</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">contact</a>
+        </li>
+      </ul>
+        <button class="btn btn-outline-success bg-danger text-white mx-3" type="submit">Get Started</button>
+    </div>
+  </div>
+</nav>
+<!--nav end-->
+	<div class="row text-secondary p-4 " style="background:#F0F0F0;">
+		<div class="col-6 px-5 text-center">
+		<h2>Blog</h2>
+		</div>
+		<div class="col-6 d-flex align-items-center ">
+		<h6 class="text-danger">Home</h6>
+		<h6>/Blog</h6>
+		</div>
+	</div>
+<!--blog-->
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-8">
+			<div class="card w-100 mb-4 shadow">
+			  <img src="images/blog-1.jpg" class="card-img-top" alt="blog1">
+			  <div class="card-body">
+				<h2 class="card-text fw-bolder text-secondary">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+				<div class="d-flex text-muted">
+					<p class="px-3"><i class="bi bi-person"></i> Jhon Doe</p>
+					<p class="px-3"><i class="bi bi-clock"></i>Jan 1,2022</p>
+					<p class="px-3"><i class="bi bi-chat-left-dots"></i>12 Comments</p>
+				</div>
+				<p>Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+				<p>Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.</p>
+			  </div>
+				<button class="btn btn-outline-success bg-danger text-white mx-5 te" style="width:150px;" type="submit">Read More</button>
+			</div>
+			
+			<div class="card w-100 mb-4 shadow">
+			  <img src="images/blog-2.jpg" class="card-img-top" alt="blog1">
+			  <div class="card-body">
+				<h2 class="card-text fw-bolder text-secondary">Nisi magni odit consequatur autem nulla dolorem</h2>
+				<div class="d-flex text-muted">
+					<p class="px-3"><i class="bi bi-person"></i> Jhon Doe</p>
+					<p class="px-3"><i class="bi bi-clock"></i>Jan 1,2022</p>
+					<p class="px-3"><i class="bi bi-chat-left-dots"></i>12 Comments</p>
+				</div>
+				<p>Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+				<p>Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.</p>
+			  </div>
+				<button class="btn btn-outline-success bg-danger text-white mx-5 te" style="width:150px;" type="submit">Read More</button>
+			</div>
+		</div>
+		
+		<div class="col-lg-4">
+			<div class="card w-100 mb-4 shadow">
+			 <div class="card-body px-4">
+				<h5 class="card-title fw-bolder text-secondary">Search</h5>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2 border border-danger bg-white" type="search" aria-label="Search">
+					<button class="bg-danger text-white border border-none px-3" type="submit"><i class="bi bi-search"></i></button>
+				 </form>
+				<h4 class="fw-bolder text-secondary">Categories</h4>
+				<p class="text-muted">General (25)</p>
+				<p class="text-muted">Lifestyle (12)</p>
+				<p class="text-muted">Travel (12)</p>
+				<p class="text-muted">Design (5)</p>
+				<p class="text-muted">Creative (8)</p>
+				<p class="text-muted">Education (14)</p>
+				
+				<h4 class="fw-bolder text-secondary mb-3" >Recent Posts</h4>
+				
+				<div class="row">
+					<div class="col-4 mb-2">
+					<img src="images/mini1.jpg" style="height:80px; width:100px;">
+					</div>
+					<div class="col-8">
+					<p>Nihil blanditiis at in nihil autem<br> Jan 1,2020</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-4 mb-2">
+					<img src="images/mini2.jpg" style="height:80px; width:100px;">
+					</div>
+					<div class="col-8">
+					<p>Quidem autem et impedit<br> Jan 1,2020</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-4 mb-2">
+					<img src="images/mini3.jpg" style="height:80px; width:100px;">
+					</div>
+					<div class="col-8">
+					<p>Id quia et et ut maxime similique occaecati ut<br> Jan 1,2020</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-4 mb-2">
+					<img src="images/mini4.jpg" style="height:80px; width:100px;">
+					</div>
+					<div class="col-8">
+					<p>Laborum corporis quo dara net para<br> Jan 1,2020</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-4 mb-2">
+					<img src="images/mini5.jpg" style="height:80px; width:100px;">
+					</div>
+					<div class="col-8">
+					<p>Et dolores corrupti quae illo quod dolor<br> Jan 1,2020</p>
+					</div>
+				</div>
+				
+				<h4 class="fw-bolder text-secondary my-2">Tags</h4>
+				<div class="ms auto mb-4">
+					<button class="text-muted border border-none m-1">App</button>
+					<button class="text-muted border border-none m-1">It</button>
+					<button class="text-muted border border-none m-1">Bunisess</button>
+					<button class="text-muted border border-none m-1">Mac</button>
+					<button class="text-muted border border-none m-1">Design</button>
+					<button class="text-muted border border-none m-1">Office</button>
+					<button class="text-muted border border-none m-1">Creative</button>
+					<button class="text-muted border border-none m-1">Studio</button>
+					<button class="text-muted border border-none m-1">Smart</button>
+					<button class="text-muted border border-none m-1">Tips</button>
+					<button class="text-muted border border-none m-1">Marketing</button>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	</div>
+<!--blog end-->
+
+<!--footer-->
+	<div class="container-fluid  pb-2" style="background:#6e7073;"> 
+		<div class="row text-white p-5 ">
+			<div class="col-lg-4 mb-5">
+				<h3 class="fw-bolder">Sailor</h3>
+				<p>A108 Adam Street<br>New York, NY 535022</p>
+				<p>Phone: +1 5589 55488 55<br>Email: info@example.com</p>
+				<a><i class="bi bi-twitter-x h4"></i></a>
+				<a><i class="bi bi-facebook h4"></i></a>
+				<a><i class="bi bi-instagram h4"></i></a>
+				<a><i class="bi bi-linkedin h4"></i></a>
+			</div>
+			
+			<div class="col-lg-2 mb-5">
+				<h3>Useful Links</h3>
+				<ul class="list-unstyled">
+					<li><a class="nav-link"href="#">Home</a></li>
+					<li><a class="nav-link"href="#">About us</a></li>
+					<li><a class="nav-link"href="#">Service</a></li>
+					<li><a class="nav-link"href="#">Terms of service</a></li>
+					<li><a class="nav-link"href="#">Privacy policy</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-lg-2 mb-5">
+			<h3>Our Service</h3>
+				<ul class="list-unstyled">
+					<li><a class="nav-link"href="#">Web Design</a></li>
+					<li><a class="nav-link"href="#">Web Development</a></li>
+					<li><a class="nav-link"href="#">Product Management</a></li>
+					<li><a class="nav-link"href="#">Marketing</a></li>
+					<li><a class="nav-link"href="#">Graphic Design</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-lg-4">
+				<h3>Our Newsletter</h3>
+				<p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+			 <form class="d-flex" role="search">
+				<input class="form-control me-2 border border-danger" style="background:#6e7073;" type="search" aria-label="Search">
+				<button class="bg-danger text-white border border-none" type="submit">Subscribe</button>
+			 </form>
+			</div>
+		</div>
+			<p class="text-center text-white">& Copyright Sailor All Right Reserved</p>
+			<p class="text-white text-center"> Design By<a class=" text-danger text-decoration-none">Ehasun Ul Islam</a></p>
+	
+		<a class="floating-btn h2" href="#">
+			<i class="fa-solid fa-angle-up fa-2x1"></i>
+		</a>
+	</div>
+	<!--footer end-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
