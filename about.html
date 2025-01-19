@@ -19,18 +19,11 @@
 			bordewr-radius:80px
 		}
 		.nav{
-		--bs-nav-link-color: black;
+		--bs-nav-link-color: red;
 		
 		}
-		.nav-item.active{
+		.nav-underline .nav-link.active{
 			color:red;
-			font-weight: bold;
-			}
-			--bs-nav-underline-link-active-color
-		}
-		.nav-underline .nav-link:focus,.nav-link:hover {
-				color: #000;
-				border-bottom: #fff;
 			}
 	</style>
 	</head>
@@ -100,8 +93,8 @@
 			
 				<div class="container">
 					<ul class=" nav nav-underline mb-3" id="pills-tab" role="tablist">
-					  <li class="nav-item " role="presentation">
-						<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><h5>Saepe fuga</h5></button>
+					  <li class="nav-item active" role="presentation">
+						<a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><h5>Saepe fuga</h5></a>
 					  </li>
 					  <li class="nav-item " role="presentation">
 						<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true"><h5>Voluptates</h5></button>
